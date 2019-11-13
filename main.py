@@ -27,6 +27,7 @@ def choose_move(board):
     moves = [move for move in board.legal_moves]
     return random.choice(moves)
 
+
 def engine_turn(board):
     '''
     Function for engine's turn
@@ -56,7 +57,6 @@ def user_turn(board):
     print('***************\n')
     print("YOU MADE THE MOVE " + str(move))
     print(board)
-
 
 
 def play_game():
